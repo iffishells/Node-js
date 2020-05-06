@@ -1,0 +1,12 @@
+form
+{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-gap: 10px;
+    grid-column-gap: -10px;
+}
+form  > input
+{
+    border: 1px solid red;
+    width: 50%;
+}
