@@ -4,5 +4,12 @@
 </h1>
 <p>
   <%= startingContent %>
+
 </p>
+
+ <%for (let i = 0; i < Post_content.length; i++) { %>
+   <h1> <%=  Post_content[i].title  %> </h1>
+   <p> <%=  Post_content[i].content %> </p>
+<% }%>
+
 <%- include('partials/footer'); -%>
